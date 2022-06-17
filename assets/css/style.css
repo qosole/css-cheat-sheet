@@ -8,7 +8,8 @@
 * {
     background-color: gray;
     box-sizing: border-box;
-    /* background: linear-gradient(0deg, blue, green 40%, red); */
+    justify-content: center;
+    background: linear-gradient(0deg, red, green 40%, blue); 
 }
 
 main {
@@ -53,13 +54,14 @@ pre {
     outline-style: solid;
     outline-color: black;
     color: var(--bodyTextColor);
+    background: linear-gradient(0deg, blue, green 40%, red); 
 }
 
 div {
     display: inline-block; 
     padding: 1%;
     margin: 10px;
-    outline-style: dashed;
+    border: dashed black;
     width: 30%;
 }
 
