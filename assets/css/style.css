@@ -2,13 +2,38 @@
     --headerColor: pink;
     --bodyTextColor: white;
     --snippetColor: pink;
+    --normalText: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 * {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: gray;
 }
 
 header {
+    font-family: var(--normalText);
     text-align: center;
+}
+
+header h1 {
+    font-family: var(--normalText);
+    color: var(--headerColor);
+}
+
+header p {
+    font-family: var(--normalText);
+    color: var(--bodyTextColor);
+}
+
+h2 {
+    font-family: var(--normalText);
+    color: var(--headerColor);
+    font-weight: bold;
+}
+
+code {
+    color: var(--bodyTextColor);
+}
+
+section {
+    text-indent: 25px;
 }

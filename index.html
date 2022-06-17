@@ -15,7 +15,65 @@
                 Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it will automatically select all of the code for you to copy.
             </p>
     </Header>
+
+    <article>
+        <h2>Flexbox Row</h2>
+            <p>Use these three properties to create a flexbox row layout.</p>
+                <code>.row { <br> <br>
+                    <section>display: flex;</section> <br>
+                    <section>flex-direction: row;</section> <br>
+                    <section>flex-wrap: wrap;</section> <br>
+                    }
+                </code>
+        <h2>Flexbox Column</h2>
+            <p>Use this to create a flexbox column layout.</p>
+                <code>.column { <br> <br>
+                    <section>display: flex;</section> <br>
+                    <section>flex-direction: column;</section> <br>
+                    }
+                </code>
+        <h2>CSS Grid Layout</h2>
+            <p>Build a 12 column layout using CSS grid.</p>
+                <code>.grid { <br> <br>
+                    <section>display: grid;</section> <br>
+                    <section>width: 100%;</section> <br>
+                    <section>grid-template-columns;</section> <br>
+                    repeat(12, 1fr); <br> <br>
+                    }
+                </code>
+        <h2>Linear Gradients</h2>
+            <p>This will create a background linear gradient from top to bottom.</p>
+                 <code>.linear-gradient-background { <br> <br>
+                    <section>background-image: linear-gradient(</section> <br>
+                    <section>rgba(232, 102, 236, 0.3) 0%,</section> <br>
+                    <section>rgba(232, 102, 236, 0.6) 100%</section> <br>
+                    ); <br> <br>
+                    }
+                </code>
+        <h2>Box Transition Glow</h2>
+            <p>Use transition and box shadows to glow on hover.</p>
+                 <code>.code-card .card-header { <br> <br>
+                    <section>border-radius: 8px;</section> <br>
+                    <section>transition: all 0.5s ease-in-out;</section> <br>
+                    <section>grid-template-columns;</section> <br>
+                    } <br><br>
+                    .code-card:hover, <br> <br>
+                    .code-card:hover .card-header { <br><br>
+                    <section>box-shadow: inset 0px 0px 8px</section> <br>
+                    rgba(232, 102, 236, 1), 0 0 15px <br><br>
+                    rgba(232, 102, 236, 1); <br><br>
+                    }
+                </code>
+        <h2>Overlay Card with Title</h2>
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                 <code>.card-header { <br> <br>
+                    <section>position: relative;</section> <br>
+                    <section>margin-top: -20px;</section> <br>
+                    }
+                </code>
+    </article>
     
-    
+    <footer>Made with love and CSS</footer>
+
 </main>
 </html>
