@@ -1,0 +1,14 @@
+:root {
+    --headerColor: pink;
+    --bodyTextColor: white;
+    --snippetColor: pink;
+}
+
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+}
